@@ -44,19 +44,6 @@ public class MainActivity extends AppCompatActivity {
         Button indirectBtn = (Button) findViewById(R.id.indirectBtn);
         setBtns(directBtn, true);
         setBtns(indirectBtn, false);
-
-        PhoneStateListener phoneStateListener = new PhoneStateListener() {
-            @Override
-            public void onSignalStrengthsChanged(SignalStrength signalStrength) {
-                super.onSignalStrengthsChanged(signalStrength);
-                Log.d("SIGNAL", String.valueOf(signalStrength.getGsmSignalStrength()));
-            }
-        };
-
-        TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-        telephonyManager.listen(phoneStateListener, PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);
-
-
     }
 
     private void setBtns(Button btn, final boolean isDirect){
