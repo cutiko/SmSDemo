@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmSDemo</string>
+    <string name="about_cutiko">Acerca de Cutiko</string>
+    <string name="warning">Envíar SMS generará cargos, lo más correcto es advertir al usuario.</string>
+    <string name="direct_send">Envíar Directamente</string>
+    <string name="indirect_send">Envíar Indirectamente</string>
+    <string name="phone">Número de teléfono</string>
+    <string name="msg">Mensaje</string>
+    <string name="required_field">Campo requerido</string>
+</resources>

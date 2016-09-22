@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cl.cutiko.smsdemo.MainActivity">
+    <item
+        android:id="@+id/aboutCutiko"
+        android:title="@string/about_cutiko"
+        app:showAsAction="never" />
+</menu>

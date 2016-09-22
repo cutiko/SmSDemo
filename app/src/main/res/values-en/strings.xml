@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmSDemo</string>
+    <string name="about_cutiko">About Cutiko</string>
+    <string name="direct_send">Direct Send</string>
+    <string name="indirect_send">Indirect Send</string>
+    <string name="warning">SMS messaging will generate costs, the correct is to warn the user</string>
+    <string name="msg">Message</string>
+    <string name="phone">Phone number</string>
+    <string name="required_field">Required field</string>
+</resources>
